@@ -2,8 +2,8 @@
 #include <WiFi.h>
 #include "esp_http_server.h"
 
-const char* ssid = "jakeis";
-const char* password = "jackjack333.";
+const char* ssid = "jas";
+const char* password = "jac33.";
 
 // XIAO ESP32-S3 Camera Pins
 #define PWDN_GPIO_NUM -1
