@@ -1,3 +1,13 @@
+// TB6612FNG Pin,ESP32 GPIO,Description
+// PWMA,GPIO 25,Speed Control for Motor A
+// AIN1,GPIO 26,Direction 1 for Motor A
+// AIN2,GPIO 27,Direction 2 for Motor A
+// PWMB,GPIO 14,Speed Control for Motor B
+// BIN1,GPIO 19,Direction 1 for Motor B (Safe Pin)
+// BIN2,GPIO 18,Direction 2 for Motor B
+// STBY,GPIO 5,Standby (Must be HIGH to run)
+// VCC,3.3V,Logic Power (From ESP32)
+// GND,GND,Logic Ground (Common Ground)
 #include <WiFi.h>
 #include <WebServer.h>
 
